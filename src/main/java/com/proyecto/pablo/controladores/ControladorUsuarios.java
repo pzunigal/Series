@@ -36,7 +36,7 @@ public class ControladorUsuarios {
 		} else {
 			//Guardo al nuevo usuario en sesión
 			session.setAttribute("usuarioEnSesion", nuevoUsuario);
-			return "redirect:/dashboard";
+			return "redirect:/dashboard2";
 		}
 		
 	}
